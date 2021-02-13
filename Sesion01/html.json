@@ -1,0 +1,18 @@
+"HTML BÁSICO": {
+    "prefijo": "HTML-BASICO",
+    "cuerpo": [
+      "<html lang = \" es \ ">",
+      "<cabeza>",
+      "<meta charset = \" UTF- 8 \ ">",
+      "<meta nombre = \" palabras clave \ "contenido = \" \ ">",
+      "<meta nombre = \" descripción \ "contenido = \" \ ">",
+      "<title> </title>",
+      "</head>",
+      "<cuerpo>",
+      "",
+      "</body>",
+      "</html>"
+    ],
+    "descripción": "HTML BASICO"
+  }
+  }

@@ -1,0 +1,7 @@
+Snippet para VSC
+1. Ingresar a: http://snippet-generator.app/
+2. Copiar fragmento de código que quieres reutilizar
+3. Control + shift + p
+4. Buscamos: configurar fragmentos de usuario
+5. Buscamos HTML.json. El cual abrirá un archivo HTML.json, donde 
+solo nos quedamos con la primera llave, y dentro pegamos lo generado desde  http://snippet-generator.app/
