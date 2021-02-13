@@ -12,19 +12,19 @@ Inicializando repositorio en local (Working dir)
 
 $git add nombre-archivo
 $git add * | $git add .
-Seguimiento de archivos (Index)
+Seguimiento de archivos (Index) (**)
 
 $git status
 Visualizar estado de archivos
 
 $git commit -m "Mensaje super descriptivo del commit"
-Pasar al repositorio local (Head)
+Pasar al repositorio local (Head) (**)
 
 $git remote add origin URL-PROYECTO
 Conectar tu repositorio local a un repositorio remoto
 
 $git push origin master
-Enviar cambios a la rama master (Github)
+Enviar cambios a la rama master (Github) (**)
 
 $git pull origin master
 Traer cambios de la rama master
@@ -33,3 +33,8 @@ $git clone URL-PROYECTO
 Clonar un proyecto
 
 Bonus: http://rogerdudler.github.io/git-guide/index.es.html
+
+Para subir archivos en Github tienes que hacer esto
+git add . 
+git commit -m
+git push origin master
