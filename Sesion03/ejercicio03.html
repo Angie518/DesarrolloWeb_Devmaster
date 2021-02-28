@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <title>Devmaster Perú</title>
+    </head>
+    <body>
+            <form action= "" method="GET">
+        <!--Parte 1-->
+                <label>Tipo de Documento</label>
+                <select name= "Tipo documento">
+                    <option disabled="disabled" selected="selected" >Seleccione..</option>
+                    <option value="partida de nacimiento">PARTIDA DE NACIMIENTO</option>
+                    <option value="dni">DNI</option>
+                    <option value= "pasaporte">PASAPORTE</option>
+                </select> <br><br>
+        <!--Parte 2-->
+                <label> Cursos</label>
+                <select>
+                    <optgroup label= "Cursos Básicos">
+                        <option>Logaritmo</option>
+                        <option>Base de Datos</option>
+                        <option>Desarrollo Web</option>
+                    </optgroup>
+                    <optgroup label = "Cursos Avanzados">
+                        <option>Certificacion SQL Server</option>
+                    </optgroup>
+                </select> <br><br>
+        <!--Parte 3-->
+                <label>Frutas Favoritas</label>
+                <input type="Text" list= "frutas">
+                <datalist id="frutas">
+                    <option>Manzana</option>
+                    <option>Lúcuma</option>
+                    <option>Fresa</option>
+                    <option>Uva</option>
+                    <option>Plátano</option>
+                </datalist>
+                <button type ="submit">Enviar </button>
+            </form>
+    </body>
+</html>

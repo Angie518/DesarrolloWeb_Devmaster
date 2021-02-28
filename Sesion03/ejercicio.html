@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <title>Vamos Perú</title>
+    </head>
+    <body>
+        <h1 style="color:red">Alienta a la Selección en la Copa América 2019</h1>
+        <form action="exitoso.html" method="post" enctype="multipart/form-data" target="_blank">
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label>Nombres:</label></td>
+                        <td><input type="text" pattern="[A-Za-zúñ\s]{1,40}" title="Solo texto" placeholder="Nombres" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Apellidos:</label></td>
+                        <td><input type="text" pattern="[A-Za-zúñ\s]{1,40}" title="Solo texto" placeholder="Apellidos" required> <br> <br></td>
+                    </tr>
+                    <tr>
+                        <td><label>DNI:</label></td>
+                        <td><input type="text" pattern="[0-9]{8}" title="máximo 8 caracteres" maxlength="8" placeholder="DNI" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Sexo:</label></td>
+                        <td><select name= "Sexo">
+                            <option disabled="disabled" selected="selected" >Seleccione</option>
+                            <option value="masculino">Masculino</option>
+                            <option value= "femenino">Femenino</option>
+                            <option value= "otros">Otros</option>
+                        </select> <br><br></td>
+                    </tr>
+                    <tr>
+                        <td><label>Número de Celular:</label></td>
+                        <td><input type="text" pattern="[0-9]{9}" title="máximo 9 caracteres" maxlength="9" placeholder="Teléfono" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email:</label></td>
+                        <td><input type= "email" placeholder="Email" name ="correo_electronico" required> <br><br></td>
+                    </tr>
+                    <tr>
+                        <td><label>Mensaje de Aliento:</label><br> <br></td>
+                        <td><textarea cols="40" rows="20" placeholder="Mensaje" name="mensaje" required></textarea> <br><br></td>
+                    </tr>
+                    <tr>
+                        <td><label>Tu Foto:</label></td>
+                        <td><input type="file" name="archivosubido"> <br><br></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="Submit">Enviar</button> 
+            <button type="Reset">Restablecer</button>
+        </form>
+    </body>
+</html>
