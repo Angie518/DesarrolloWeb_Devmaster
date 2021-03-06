@@ -1,0 +1,12 @@
+body{
+    background-color: springgreen;
+}
+
+p{
+    /*autoprefixer: ctrl+ shift + p*/
+    /*user-select: none;*/ /*no mucho soporte ya que es nueva en CSS pero sirve para que no puedan resaltar texto*/
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}

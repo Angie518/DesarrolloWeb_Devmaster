@@ -1,0 +1,22 @@
+/*¿Qué pasa en el caso el diseñador 
+te brinde la tipografia de un formato. otf?*/
+
+@font-face{
+    font-family: Valentime;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/converted-files/Valentime.eot');
+    src: 
+    url('../fonts/converted-files/Valentime.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/converted-files/Valentime.woff2') format('woff2'),
+    url('../fonts/converted-files/Valentime.woff') format('woff'),
+    url('../fonts/converted-files/Valentime.ttf') format('truetype'),
+    url('../fonts/converted-files/Valentime.svg') format('svg');
+}
+
+h1{
+    font-family: Valentime;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+}
