@@ -1,0 +1,12 @@
+/****************************
+Variables
+*****************************/
+:root {
+    --white-color: #FFF;
+    --black-color: #000;
+    --secondary-color: #AD7D52;
+    --back-color: #F8F8FB;
+
+    --primary-font: 'Raleway', sans-serif;
+    --secondary-font: 'Roboto Slab', serif;
+}
